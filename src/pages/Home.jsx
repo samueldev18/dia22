@@ -1,4 +1,4 @@
-import image22 from "../assets/image22";
+import image22 from "../assets/image22.png";
 import { Link } from "react-router-dom";
 
 export default function Home() {
