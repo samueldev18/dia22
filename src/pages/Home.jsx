@@ -68,7 +68,7 @@ export default function Home() {
             }}
           />
 
-          <Link to="/sobre" style={{ textDecoration: "none" }}>
+          <Link to="/escolha" style={{ textDecoration: "none" }}>
             <button
               style={{
                 width: "100%",
