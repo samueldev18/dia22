@@ -4,44 +4,43 @@ export default function Poesia() {
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "100svh", // altura real no mobile
         backgroundColor: "#c4b5fd",
         display: "flex",
         justifyContent: "center",
-        padding: 20
+        padding: "16px 12px"
       }}
     >
       <div
         style={{
-          maxWidth: 393,
           width: "100%",
-          backgroundColor: "rgba(255,255,255,0.92)",
-          padding: 28,
+          maxWidth: 393,
+          backgroundColor: "rgba(255,255,255,0.95)",
+          padding: 24,
           borderRadius: 24,
           display: "flex",
-          flexDirection: "column",
-          minHeight: "90vh"
+          flexDirection: "column"
         }}
       >
         <h1
           style={{
             color: "#4c1d95",
             textAlign: "center",
-            marginBottom: 24,
+            marginBottom: 20,
             fontSize: 22
           }}
         >
           Poesia
         </h1>
 
-        {/* TEXTO POÉTICO */}
+        {/* TEXTO */}
         <div
           style={{
             color: "#5b21b6",
             fontSize: 16,
             lineHeight: 1.9,
-            flexGrow: 1,
-            whiteSpace: "pre-line"
+            whiteSpace: "pre-line",
+            marginBottom: 24
           }}
         >
 {`
@@ -59,17 +58,15 @@ Se existir lugar seguro,
 `}
         </div>
 
-        {/* BOTÃO DE RETORNO */}
-        <Link to="/escolha">
+        {/* RETORNO */}
+        <Link to="/escolha" style={{ alignSelf: "center" }}>
           <button
             style={{
-              marginTop: 20,
               background: "transparent",
               border: "none",
               color: "#6d28d9",
               fontSize: 14,
-              cursor: "pointer",
-              alignSelf: "center"
+              cursor: "pointer"
             }}
           >
             ← Voltar para escolha
