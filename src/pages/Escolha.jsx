@@ -35,6 +35,22 @@ export default function Escolha() {
             Poesia
           </button>
         </Link>
+
+        <Link to="/" style={{ alignSelf: "center", marginTop: 28 }}>
+          <button
+            style={{
+              background: "transparent",
+              border: "none",
+              color: "#6d28d9",
+              fontSize: 14,
+              cursor: "pointer",
+              marginTop: 20,
+            }}
+          >
+            ← Voltar
+          </button>
+        </Link>
+
       </div>
     </div>
   );

@@ -4,74 +4,93 @@ export default function Poesia() {
   return (
     <div
       style={{
-        minHeight: "100svh", // altura real no mobile
         backgroundColor: "#c4b5fd",
-        display: "flex",
-        justifyContent: "center",
-        padding: "16px 12px"
+        paddingTop: 80,
+        paddingBottom: 120, // fundo continua depois do texto
+        paddingLeft: 12,
+        paddingRight: 12
       }}
     >
       <div
         style={{
           width: "100%",
           maxWidth: 393,
-          backgroundColor: "rgba(255,255,255,0.95)",
-          padding: 24,
-          borderRadius: 24,
-          display: "flex",
-          flexDirection: "column"
+          margin: "0 auto",
+          backgroundColor: "rgba(255,255,255,0.96)",
+          paddingTop: 48,
+          paddingBottom: 64, // área branca mais longa
+          paddingLeft: 24,
+          paddingRight: 24,
+          borderRadius: 28
         }}
       >
         <h1
           style={{
             color: "#4c1d95",
             textAlign: "center",
-            marginBottom: 20,
+            marginBottom: 40,
             fontSize: 22
           }}
         >
-          Poesia
+          Saudade
         </h1>
 
-        {/* TEXTO */}
+        {/* TEXTO LONGO */}
         <div
           style={{
             color: "#5b21b6",
             fontSize: 16,
-            lineHeight: 1.9,
+            lineHeight: 2,
             whiteSpace: "pre-line",
-            marginBottom: 24
+            marginBottom: 80 // espaço antes do botão
           }}
         >
 {`
-Você chegou sem avisar,
-e de repente tudo
-aprendeu a ficar.
+Saudade é o sentimento que me acompanha
+Acompanha quando eu te perco de vista
+Quando nossos olhos não se cruzam mais
+Quando não posso nem ao menos ver sua silhueta 
 
-O dia ficou menos pesado,
-o silêncio ganhou sentido,
-e o tempo passou
-a ter nome.
+A Saudade bate
+Bate quando não podemos se entregar as conversas longas
+Quando o abraço apertado não alcança 
+Quando os labios não se tocam
+E os olhos não podem se observar
 
-Se existir lugar seguro,
-é onde seu riso mora.
+Eu sinto Saudade
+Quando não posso aprecia-la 
+Apreciar a beleza de seu rosto delicado
+Seu sorriso radiante
+Seu olhos que carregam o universo neles
+E os sinais de seu rosto que são como um carimbo querendo informar que ela é a única 
+
+A Saudade é cruel
+Cruel porque os momentos ao seu lado são como uma viagem ao paraíso 
+Essa Saudade nunca passa
+Isso prova o quanto a vida ao seu lado é linda
+Tão linda que a primeira coisa que acontece quando você vai, é sentir Saudade
+Saudade de você mais uma vez...
+
+
 `}
         </div>
 
         {/* RETORNO */}
-        <Link to="/escolha" style={{ alignSelf: "center" }}>
-          <button
-            style={{
-              background: "transparent",
-              border: "none",
-              color: "#6d28d9",
-              fontSize: 14,
-              cursor: "pointer"
-            }}
-          >
-            ← Voltar para escolha
-          </button>
-        </Link>
+        <div style={{ textAlign: "center" }}>
+          <Link to="/escolha">
+            <button
+              style={{
+                background: "transparent",
+                border: "none",
+                color: "#6d28d9",
+                fontSize: 20,
+                cursor: "pointer"
+              }}
+            >
+              ← Voltar 
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

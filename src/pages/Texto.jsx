@@ -59,14 +59,34 @@ export default function Texto() {
           }}
         >
           <p>
-            Desde que você entrou na minha vida, tudo ficou mais leve.
-            Esse texto é só um jeito simples de dizer o quanto você é
-            importante pra mim.
+            Feliz dia 22, meu amor! amo quando esse dia chega, ele me trouxe e ainda continua me trazendo uma felicidade enorme.
+            Esse dia faz eu reviver e lembrar da pessoa incrivel que ele me proporcionou, de nossa primeira troca de olhares, nosso primeiro "oi tudo bem, oi como voce tá?" KKKKKKKK,
+            a conexão incrivel que sentimos com apenas um dia.
           </p>
 
           <p>
-            Obrigado por ser quem você é. De verdade.
+            O que seria apenas um dia de vôlei com uma pessoa que eu nem se quer sabia se iamos nos dar bem, acabou gerando uma grande relação, um grande amor, uma grande casa.
+            Um lugar onde tudo é calmo, feliz, alegre, e mesmo nos momentos turbulentos e mais desafiadores, nunca largamos a mão um do outro, porque o amor que está em nosso peito supera qualquer tipo de desafio.
+            Sempre lutamos um pelo outro, quando a força de um se esvai o outro apoia e ajuda a levantar. O carinho aqui existe de uma forma surreal, como se até em momentos não prováveis,
+            é possivel sentir uma onda de cuidado e paixão. Nossas conversas tentando sempre resolver tudo me trazem paz, porque eu sei que sempre vamos tentar de tudo pra resolver qualuqer pendencia.
           </p>
+
+          <p>
+            Essa relação é a coisa mais valiosa que eu carrego, como uma jóia que só existe uma exemplar no mundo inteiro, tento sempre polir com amor, carinho, atenção, cuidado,
+            pois seu brilho encanta e aquece o coração. Cada momento nosso é incrivel, cada risada, cada piada, troca de olhares, conversas profundas, conversas rasas,
+            cada momento assistindo e comentando sobre, até a simples ação de comer juntos, tudo isso são momentos tão simples mas que com você carrega tanto sentimento, significado, carrega o que somos. Um casal, namorados, melhores amigos, nós somos perfeitos um pro outro.
+          </p>
+
+          <p>
+            Queria agradecer por desde de sempre ser essa garota incrivel pra mim, cada ação sua faz eu me sentir sempre mais feliz, o jeito que voce fala comigo,
+            o jeito de voce me tratar com carinho, de se importar com tudo que me envolve. O amor que voce demonstra por mim é tão lindo, as vezes eu penso na sorte que eu tenho por voce estar em minha vida.
+            Obrigado pelo seu amor, pelo seu carinho, pelo seu cuidado, obrigado por ser a minha pessoa, obrigado por ser a garotinha que eu tanto amo.
+          </p>
+
+          <p>
+            Feliz dia 22, minha vidinha do meu coração. Eu te amo tanto, que nenhuma palavra existente pode mensurar de forma alguma!💜
+          </p>
+
         </div>
 
         {/* BOTÃO DE RETORNO */}
